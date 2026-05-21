@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "project": {
+    "path": "motor.uvprojx",
+    "target": "STM32"
+  },
+  "build": {
+    "builder": "uv4",
+    "output": ".vscode/uv4.log"
+  },
+  "flash": {
+    "builder": "uv4",
+    "output": ".vscode/uv4.log",
+    "options": {
+      "autoDownload": true,
+      "autoRebuild": true,
+      "resetTarget": true,
+      "debugger": "jlink"
+    }
+  },
+  "debug": {
+    "builder": "uv4",
+    "output": ".vscode/uv4.log",
+    "options": {
+      "autoRun": false,
+      "autoDownload": true,
+      "autoRebuild": true,
+      "debugger": "jlink"
+    }
+  }
+}
